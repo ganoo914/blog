@@ -25,7 +25,7 @@ function draw() {
   }
 
   if (y + dy > canvas.heigh || y + dy < 0) {
-    dy -= dy;
+    dy = -dy;
   }
 
   x += dx
