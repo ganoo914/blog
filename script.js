@@ -28,7 +28,7 @@ function draw() {
     dy = -dy;
   }
 
-  x += dx
+  x += dx;
   y += dy;
 }
 
